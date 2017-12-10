@@ -1,0 +1,40 @@
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body {
+    
+    background-color: black;
+    color: white;
+}
+.InputGroup {
+    margin-left: auto;
+    margin-right: auto;
+}
+.list {
+    display: flex;
+    
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.book {
+    position: relative;
+    float: left;
+    flex-direction: column;
+    width: 33.333%;
+    padding: .75rem;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 2rem;
+    border: 0;
+
+}
+.book-img {
+    width: 220px;
+    height: 300px;
+}
